@@ -1,0 +1,1 @@
+awk -F, '{print NF}' $1 | sort -n | tail -1
